@@ -52,6 +52,7 @@ module RailsPDF
           logger.debug stderr.read
         end
 
+        sleep 10
         output.rewind
         output.binmode
 
